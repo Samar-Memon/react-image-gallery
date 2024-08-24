@@ -1,0 +1,38 @@
+.usrePost-Area{
+    height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.profile-area{
+    border: 1px solid #444;
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    border-bottom: 1px dashed #111;
+    height: 110px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 5px;
+}
+.add-post:hover{
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #111;
+}
+.profile-body{
+    display: flex;
+    padding: 5px;
+    gap: 22px;
+    row-gap: 6px;
+    flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+    .profile-body{
+        justify-content: center;
+    }
+}
