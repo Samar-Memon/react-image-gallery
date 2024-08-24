@@ -5,7 +5,7 @@ const Openmodal = ({toggle, image}) => {
   return (
     <>
     <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center modal">
-  <div className="relative bg-white p-4 rounded-lg w-full max-w-screen-lg h-auto">
+  <div className="relative bg-gray-900 p-4 rounded-lg w-full max-w-screen-lg h-auto">
     <img
       src={image}
       alt="Sample Image"
