@@ -13,7 +13,7 @@ const Homepost = ({image, userName, userImage, date}) => {
 
   return (
     <>
-    <div className="bg-gray-900 rounded-lg shadow-md overflow-hidden homePost">
+    <div className="bg-gray-900 rounded-lg shadow-md overflow-hidden homePost"  data-aos="fade-righgit ">
   {/* Header */}
   <div className="flex items-center p-4 border-b border-gray-300">
     <img
