@@ -14,7 +14,6 @@ const Openmodal = ({toggle, image}) => {
     <i className="fa-solid fa-xmark text-white w-7 h-7 bg-red-600 flex justify-center items-center rounded-full absolute top-3 right-3 cursor-pointer" onClick={toggle}></i>
   </div>
 </div>
-
     </>
   )
 }

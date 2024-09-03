@@ -21,7 +21,7 @@ const Navbar = () => {
                             className="h-8"
                             alt="Logo Image"
                         />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                        <span className="self-center text-2xl font-semibold text-white">
                             Image Gallery
                         </span>
                     </NavLink>
